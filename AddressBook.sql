@@ -23,3 +23,7 @@ insert into AddressBookTable values ('Tushar','patil','Dhule','Dhule','MH','5677
 
 ----UC4 Edit Existing Contact-----
 update AddressBookTable set FirstName ='Hina',Email ='HinaGavit@gamil.com' where FirstName ='Vijay';
+
+----UC5 Delete Contact-------
+delete from AddressBookTable where FirstName ='omkar';
+
