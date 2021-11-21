@@ -31,4 +31,5 @@ delete from AddressBookTable where FirstName ='omkar';
 ---UC6 Retrive Person Belonging City or State----
 select * from AddressBookTable where City ='pune';
 
-
+----UC7 Understand size of address book by city---
+select count(Zip) as CountByCity,City from AddressBookTable group by City ;
